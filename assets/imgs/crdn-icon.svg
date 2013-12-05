@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="156.6505"
+     inkscape:cy="170.1748"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1317"
+     inkscape:window-height="744"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-796.36217)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path2985"
+       sodipodi:cx="-281.5"
+       sodipodi:cy="-72.5"
+       sodipodi:rx="11.5"
+       sodipodi:ry="21.5"
+       d="m -270,-72.5 c 0,11.874122 -5.14873,21.5 -11.5,21.5 -6.35127,0 -11.5,-9.625878 -11.5,-21.5 0,0 0,-10e-7 0,-10e-7"
+       transform="translate(0,992.36217)"
+       sodipodi:start="0"
+       sodipodi:end="3.1415927"
+       sodipodi:open="true" />
+    <g
+       id="g3971"
+       transform="matrix(4.2666667,0,0,4.2666667,0,-3437.7165)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/eber/Projects/CRDN/assets/imgs/icon-256.png">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/eber/text2995.png"
+         y="992.36218"
+         x="0"
+         height="60"
+         width="60"
+         id="rect3969"
+         style="fill:none;stroke:none" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/eber/text2995.png"
+         transform="matrix(0.27619048,0,0,0.27619048,127.21905,1074.0098)"
+         d="m -247,-187 c 0,57.9899 -47.0101,105 -105,105 -57.9899,0 -105,-47.0101 -105,-105 0,-57.9899 47.0101,-105 105,-105 57.9899,0 105,47.0101 105,105 z"
+         sodipodi:ry="105"
+         sodipodi:rx="105"
+         sodipodi:cy="-187"
+         sodipodi:cx="-352"
+         id="path2993"
+         style="fill:#1a1a1a;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         sodipodi:linespacing="99.000001%"
+         id="text2995"
+         y="1021.1946"
+         x="29.988283"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:99.00000095%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact Bold"
+         xml:space="preserve"><tspan
+           style="fill:#ffffff"
+           y="1021.1946"
+           x="29.988283"
+           id="tspan2997"
+           sodipodi:role="line">Christian</tspan><tspan
+           id="tspan2999"
+           y="1033.0746"
+           x="29.988283"
+           sodipodi:role="line"><tspan
+             id="tspan3769"
+             style="fill:#2f68d9;fill-opacity:1">Rock</tspan><tspan
+             id="tspan3967"
+             style="fill:#ffffff">.net</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+{
+    "version": "0.0.1",
+    "name": "CR.net",
+    "description": "ChristianRock.net radio network on your Firefox OS",
+    "launch_path": "/index.html",
+    "developer": {
+        "name": "Zyglab",
+        "url": "http://www.zyglab.com/"
+    },
+    "type": "privileged",
+    "installs_allowed_from": ["*"],
+    "permissions": {
+        "systemXHR": {
+            "description": "Required to get current music info"
+        },
+        "audio-channel-content": {
+            "description": "Keeps music playing in the background"
+        }
+    },
+    "icons": {
+        "32": "/assets/imgs/icon-32.png",
+        "60": "/assets/imgs/icon-60.png",
+        "90": "/assets/imgs/icon-90.png",
+        "120": "/assets/imgs/icon-120.png",
+        "128": "/assets/imgs/icon-128.png",
+        "256": "/assets/imgs/icon-256.png"
+    }
+}

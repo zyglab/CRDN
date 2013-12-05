@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>ChristianRock.net Radio</title>
+        <link href="assets/css/app.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div id="background" style="">
+            &nbsp;
+        </div>
+
+        <svg>
+            <filter id="blur">
+                <feGaussianBlur stdDeviation="25" />
+            </filter>
+        </svg>
+
+        <div id="main-screen">
+            <div id="logo">
+                <img src="assets/imgs/logo.png" />
+            </div>
+
+            <div id="album-cover" style="">&nbsp;</div>
+
+            <div id="song-info">
+                <span id="song-title">Loading...</span><br />
+                <span id="song-artist"></span><br />
+                <span id="song-cd"></span> <span id="song-year"></span>
+            </div>
+
+            <ul id="controls" class="clearfix">
+                <li><a href="#" data-open-modal="station-switcher"></a></li>
+                <li><a href="#" data-open-modal="donate"></a></li>
+                <li><a href="#" id="play-stop">--</a></li>
+                <li><a href="#" data-open-modal="info"></a></li>
+                <li><a href="#" data-open-modal="quality-switcher"></a></li>
+            </ul>
+
+            <div id="currents" class="clearfix">
+                <div id="station">
+                    <span id="curr-station">--</span>
+                </div>
+
+                <div id="quality">
+                    <span id="curr-quality">--</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="info" class="fake-modal">
+            <h1>ChristianRock.net Radio</h1>
+
+            <p>
+                This CR.net unofficial app is brought to you by
+                <a href="http://www.zyglab.com"><strong>Zyglab</strong></a>.
+                Thanks for using and please send your feedback!
+            </p>
+        </div>
+
+        <div id="donate" class="fake-modal">
+            <h1>Show some love</h1>
+
+            <p>
+                ChristianRock.Net is a non-profit ministry providing
+                4 different radio formats to listen to on the Internet.
+                We depend on listener donations keep playing the music
+                you love to hear!
+            </p>
+
+            <p>All gifts are tax deductible. Any amount helps!</p>
+
+            <ul class="options">
+                <li><a class="selected" href="http://christianrock.net/support.asp" data-quality="high">donate now</a></li>
+            </ul>
+        </div>
+
+        <div id="quality-switcher" class="fake-modal">
+            <h1>Stream quality</h1>
+
+            <p>
+                Choose <strong>high quality</strong> if you are using
+                a fast internet connection.
+                If you are using a slow internet connection, like 3G,
+                choose <strong>low quality</strong> for better
+                performance.
+            </p>
+
+            <ul class="options">
+                <li><a href="#" data-quality="high">high quality</a>
+                <li><a href="#" data-quality="low">low quality</a></li>
+            </ul>
+        </div>
+
+        <div id="station-switcher" class="fake-modal">
+            <h1>Choose your radio station</h1>
+
+            <ul class="options">
+                <li><a href="#" data-station="crdn">Rock</a></li>
+                <li><a href="#" data-station="chrdn">Hard Rock</a></li>
+                <li><a href="#" data-station="ccrdn">Classic Rock</a></li>
+                <li><a href="#" data-station="cppdn">Power Praise</a></li>
+            </ul>
+        </div>
+
+        <script src="assets/js/zepto.min.js"></script>
+        <script src="assets/js/asyncStorage.js"></script>
+        <script src="assets/js/app.js"></script>
+  </body>
+</html>

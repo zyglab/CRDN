@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2013 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="heart" unicode="&#xe803;" d="m500-79q-14 0-25 10l-348 336q-5 5-15 15t-31 36t-38 55t-30 67t-13 77q0 123 71 192t196 70q34 0 70-12t67-33t54-38t42-38q20 20 42 38t54 38t67 33t70 12q125 0 196-70t71-192q0-123-128-251l-347-335q-10-10-25-10z" horiz-adv-x="1000" />
+<glyph glyph-name="help-circled" unicode="&#xe802;" d="m500 82v107q0 8-5 13t-13 5h-107q-8 0-13-5t-5-13v-107q0-8 5-13t13-5h107q8 0 13 5t5 13z m143 375q0 49-31 91t-77 65t-95 23q-136 0-207-119q-9-14 4-24l74-55q4-4 10-4q9 0 14 7q30 38 48 51q19 14 48 14q27 0 48-15t21-33q0-21-11-34t-38-25q-35-16-65-48t-29-70v-20q0-8 5-13t13-5h107q8 0 13 5t5 13q0 10 12 27t30 28q18 10 28 16t25 19t25 27t16 34t7 45z m214-107q0-117-57-215t-156-156t-215-58t-216 58t-155 156t-58 215t58 215t155 156t216 58t215-58t156-156t57-215z" horiz-adv-x="857.1" />
+<glyph glyph-name="headphones" unicode="&#xe804;" d="m929 356q0-93-34-176l-11-27l-103-18q-13-47-51-77t-87-29v-18q0-8-5-13t-13-5h-36q-8 0-13 5t-5 13v321q0 8 5 13t13 5h36q8 0 13-5t5-13v-18q39 0 72-20t52-53l38 7q16 53 16 108q0 82-49 155t-132 117t-176 43t-176-43t-132-117t-49-156q0-54 16-107l38-7q19 34 52 53t73 20v18q0 8 5 13t13 5h35q8 0 13-5t5-13v-321q0-8-5-13t-13-5h-35q-8 0-13 5t-5 13v18q-49 0-88 29t-50 77l-103 18l-11 27q-34 83-34 175q0 85 37 163t100 135t149 91t178 34t179-34t148-91t100-135t38-163z" horiz-adv-x="928.6" />
+<glyph glyph-name="play" unicode="&#xe800;" d="m772 333l-741-412q-13-7-22-2t-9 20v822q0 14 9 20t22-2l741-412q13-7 13-17t-13-17z" horiz-adv-x="785.7" />
+<glyph glyph-name="pause" unicode="&#xe801;" d="m857 743v-786q0-14-10-25t-26-11h-285q-15 0-25 11t-11 25v786q0 14 11 25t25 11h285q15 0 26-11t10-25z m-500 0v-786q0-14-10-25t-26-11h-285q-15 0-25 11t-11 25v786q0 14 11 25t25 11h285q15 0 26-11t10-25z" horiz-adv-x="857.1" />
+<glyph glyph-name="signal" unicode="&#xe805;" d="m143 46v-107q0-8-5-13t-13-5h-107q-8 0-13 5t-5 13v107q0 8 5 13t13 5h107q8 0 13-5t5-13z m214 72v-179q0-8-5-13t-13-5h-107q-8 0-13 5t-5 13v179q0 8 5 13t13 5h107q8 0 13-5t5-13z m214 143v-322q0-8-5-13t-12-5h-108q-7 0-12 5t-5 13v322q0 8 5 13t12 5h108q7 0 12-5t5-13z m215 214v-536q0-8-5-13t-13-5h-107q-8 0-13 5t-5 13v536q0 8 5 13t13 5h107q8 0 13-5t5-13z m214 286v-822q0-8-5-13t-13-5h-107q-8 0-13 5t-5 13v822q0 8 5 13t13 5h107q8 0 13-5t5-13z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
