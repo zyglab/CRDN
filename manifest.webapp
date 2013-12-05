@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "1.0.0",
     "name": "CR.net",
     "description": "ChristianRock.net radio network on your Firefox OS",
     "launch_path": "/index.html",
