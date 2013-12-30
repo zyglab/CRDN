@@ -36,7 +36,7 @@ var stationsLabels = {
 
 var qualityLabels = {
     'high': 'High',
-    'low': 'Low'
+    'low' : 'Low'
 };
 
 var statusesUrls = {
@@ -270,7 +270,11 @@ var updateSongInfo = function () {
             $('#song-title').text(data.Title);
             $('#song-artist').text(data.Artist);
             $('#song-cd').text(data.CD);
-            $('#song-year').text('(' + data.Year + ')');
+
+            // some promo audios doesn't have a year defined...
+            if (data.Year) {
+                $('#song-year').text('(' + data.Year + ')');
+            }
 
             infoTimeout = window.setTimeout(updateSongInfo, nextUpdate);
 

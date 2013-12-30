@@ -142,6 +142,7 @@ html[xmlns] .clearfix {
     margin: 0;
     padding: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 #controls li {
@@ -159,11 +160,11 @@ html[xmlns] .clearfix {
     width: 100%;
     text-align: center;
     padding: 15px 0;
-    background-color: rgba(255, 255, 255, 0.1);
+    background: transparent;
 }
 
 #play-stop {
-    background-color: rgba(255, 255, 255, 0.2) !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 #currents {
@@ -175,21 +176,18 @@ html[xmlns] .clearfix {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     background-color: rgba(255, 255, 255, 0.1);
     text-shadow: rgba(0, 0, 0, 0.5) 1px 1px;
+    text-align: center;
 }
 
-#station {
-    float: left;
-    padding: 4px 0 0 5px;
+#station,
+#quality {
+    display: inline-block;
+    padding: 4px 5px 0 5px;
 }
 
 #station:before {
     font-family: 'fontello';
     content: '\e804';
-}
-
-#quality {
-    float: right;
-    padding: 4px 5px 0 0;
 }
 
 #quality:before {
