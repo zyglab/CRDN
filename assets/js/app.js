@@ -81,18 +81,6 @@ var openModal = function (id) {
 };
 
 var setupEvents = function () {
-    $('a[href^=http]').click(function (e) {
-        e.preventDefault();
-
-        var activity = new MozActivity({
-            name: "view",
-            data: {
-                type: "url",
-                url: $(this).attr("href")
-            }
-        });
-    });
-
     $('.fake-modal').on('click', function (e) {
         var elm = $(this),
             modalId = elm.attr('id'),

@@ -30,7 +30,7 @@
                 <span id="song-cd"></span> <span id="song-year"></span>
             </div>
 
-            <ul id="controls" class="clearfix">
+            <ul id="controls">
                 <li><a href="#" data-open-modal="station-switcher"></a></li>
                 <li><a href="#" data-open-modal="quality-switcher"></a></li>
                 <li><a href="#" id="play-stop"></a></li>
@@ -38,7 +38,7 @@
                 <li><a href="#" data-open-modal="info"></a></li>
             </ul>
 
-            <div id="currents" class="clearfix">
+            <div id="currents">
                 <span id="station">
                     Current station: <strong><span id="curr-station"></span></strong>
                 </span>
@@ -50,62 +50,73 @@
         </div>
 
         <div id="info" class="fake-modal">
-            <h1>ChristianRock.net Radio</h1>
+            <div class="fake-modal-container">
+                <h1>ChristianRock.net Radio</h1>
 
-            <p>
-                This CR.net unofficial app is brought to you by
-                <a href="http://www.zyglab.com"><strong>Zyglab</strong></a>.
-                Thanks for using and please send your feedback!
-            </p>
+                <p>
+                    This was an unofficial CR.net app for Firefox OS. Now that
+                    Firefox OS is dead, we have turned it into a simple web app
+                    where you can listen to CR.net network radios on your browser.
+                    This web app is brought to you by <strong>Zyglab</strong>.
+                    Thanks for using and please send your feedback!
+                </p>
+            </div>
         </div>
 
         <div id="donate" class="fake-modal">
-            <h1>Show some love</h1>
+            <div class="fake-modal-container">
+                <h1>Show some love</h1>
 
-            <p>
-                ChristianRock.Net is a non-profit ministry providing
-                4 different radio formats to listen to on the Internet.
-                We depend on listener donations keep playing the music
-                you love to hear!
-            </p>
+                <p>
+                    ChristianRock.Net is a non-profit ministry providing
+                    4 different radio formats to listen to on the Internet.
+                    We depend on listener donations keep playing the music
+                    you love to hear!
+                </p>
 
-            <p>All gifts are tax deductible. Any amount helps!</p>
+                <p>All gifts are tax deductible. Any amount helps!</p>
 
-            <ul class="options">
-                <li><a class="selected" href="http://christianrock.net/support.asp" data-quality="high">donate now</a></li>
-            </ul>
+                <ul class="options">
+                    <li><a class="selected" href="http://christianrock.net/support.asp">donate now</a></li>
+                </ul>
+            </div>
         </div>
 
         <div id="quality-switcher" class="fake-modal">
-            <h1>Stream quality</h1>
+            <div class="fake-modal-container">
+                <h1>Stream quality</h1>
 
-            <p>
-                Choose <strong>high quality</strong> if you are using
-                a fast internet connection.
-                If you are using a slow internet connection, like 3G,
-                choose <strong>low quality</strong> for better
-                performance.
-            </p>
+                <p>
+                    Choose <strong>high quality</strong> if you are using
+                    a fast internet connection.
+                    If you are using a slow internet connection, like 3G,
+                    choose <strong>low quality</strong> for better
+                    performance.
+                </p>
 
-            <ul class="options">
-                <li><a href="#" data-quality="high">high quality</a>
-                <li><a href="#" data-quality="low">low quality</a></li>
-            </ul>
+                <ul class="options">
+                    <li><a href="#" data-quality="high">high quality</a>
+                    <li><a href="#" data-quality="low">low quality</a></li>
+                </ul>
+            </div>
         </div>
 
         <div id="station-switcher" class="fake-modal">
-            <h1>Choose your radio station</h1>
+            <div class="fake-modal-container">
+                <h1>Choose your radio station</h1>
 
-            <ul class="options">
-                <li><a href="#" data-station="crdn">Rock</a></li>
-                <li><a href="#" data-station="chrdn">Hard Rock</a></li>
-                <li><a href="#" data-station="ccrdn">Classic Rock</a></li>
-                <li><a href="#" data-station="cppdn">Power Praise</a></li>
-            </ul>
+                <ul class="options">
+                    <li><a href="#" data-station="crdn">Rock</a></li>
+                    <li><a href="#" data-station="chrdn">Hard Rock</a></li>
+                    <li><a href="#" data-station="ccrdn">Classic Rock</a></li>
+                    <li><a href="#" data-station="cppdn">Power Praise</a></li>
+                </ul>
+            </div>
         </div>
 
         <script src="assets/js/zepto.min.js"></script>
         <script src="assets/js/asyncStorage.js"></script>
+        <script src="assets/js/console.js"></script>
         <script src="assets/js/app.js"></script>
   </body>
 </html>
