@@ -1,11 +1,5 @@
 'use stric';
 
-$.ajaxSettings.xhr = function () {
-    return new window.XMLHttpRequest({
-        mozSystem: true
-    });
-};
-
 var player = new Audio(),
     playStopBtn = $('#play-stop'),
     stationsList = $('#station-switcher ul a'),
@@ -40,10 +34,10 @@ var qualityLabels = {
 };
 
 var statusesUrls = {
-    'crdn' : 'http://www.christianrock.net/iphoneCRDN.asp',
-    'chrdn': 'http://www.christianrock.net/iphoneCHRDN.asp',
-    'ccrdn': 'http://www.christianrock.net/iphoneCCRDN.asp',
-    'cppdn': 'http://www.christianrock.net/iphoneCPPDN.asp'
+    'crdn' : 'http://cors-anywhere.herokuapp.com/https://www.christianrock.net/iphoneCRDN.asp',
+    'chrdn': 'http://cors-anywhere.herokuapp.com/https://www.christianrock.net/iphoneCHRDN.asp',
+    'ccrdn': 'http://cors-anywhere.herokuapp.com/https://www.christianrock.net/iphoneCCRDN.asp',
+    'cppdn': 'http://cors-anywhere.herokuapp.com/https://www.christianrock.net/iphoneCPPDN.asp'
 };
 
 var defaultOptions = {
@@ -214,7 +208,6 @@ var play = function () {
 
     player.src = stream;
     radioPlaying = true;
-    screenLock = window.navigator.requestWakeLock('screen');
 
     player.play();
     updateSongInfo();
@@ -231,14 +224,6 @@ var pause = function () {
     player.src = '';
 
     playStopBtn.text('').removeClass('stop').addClass('play');
-
-    if (screenLock !== undefined) {
-        try {
-            screenLock.unlock();
-        } catch (e) {
-            console.error(e);
-        }
-    }
 };
 
 var updateSongInfo = function () {
@@ -289,7 +274,6 @@ var updateSongInfo = function () {
 var resetSongInfo = function () {
     $('#background').attr('style', '');
     $('#album-cover').attr('style', '');
-
     $('#song-title').text('Loading...');
     $('#song-artist').text('');
     $('#song-cd').text('');
@@ -306,8 +290,6 @@ var startup = function () {
         currentOptions = options || defaultOptions;
 
         asyncStorage.setItem('options', currentOptions);
-
-        var orientation = window.screen.mozLockOrientation('portrait');
 
         setupPlayer();
         play();
